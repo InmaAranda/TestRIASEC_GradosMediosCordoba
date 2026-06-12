@@ -1208,7 +1208,7 @@ export default function App() {
       {/* App Footer */}
       <footer className="bg-white rounded-3xl border-2 border-[#FFE8CC] mt-8 py-5 px-6 text-center text-xs text-[#7C6652] shrink-0 font-sans max-w-5xl w-full mx-auto shadow-sm animate-fade-in" id="app-footer">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p>Con cariño para la 'Asociación Ariadna' de Córdoba © Inma Aranda Muñoz 2026. <br> Todos los derechos reservados. </p>
+          <p>Test RIASEC Ciclos Medios Córdoba © Inma Aranda Muñoz 2026. <br> Todos los derechos reservados. </p>
           <p className="flex items-center gap-1 text-[10px] font-mono justify-center text-[#7C6652]/70">
             Este TEST no garantiza resultados infalibles. Para una asesoría personalizada, <br> consulta con un orientador profesional.
           </p>
