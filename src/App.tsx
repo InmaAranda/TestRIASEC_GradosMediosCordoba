@@ -200,7 +200,7 @@ function RadarChart({ scores }: { scores: RIASECScores }) {
         {/* Dynamic Labels */}
         {keys.map((key, i) => {
           const labelPt = getAnglePoint(i, 5.75);
-          let textAnchor = 'middle';
+          let textAnchor: 'inherit' | 'end' | 'middle' | 'start' | undefined = 'middle';
           if (labelPt.x < center - 20) textAnchor = 'end';
           else if (labelPt.x > center + 20) textAnchor = 'start';
           
@@ -509,7 +509,7 @@ export default function App() {
             }`}
           >
             <Sparkles className="w-4 h-4 text-[#D97706]" />
-            El Comodín EOI
+            El Comodín EOI (Escuela Oficial de Idiomas)
           </button>
         </div>
       </nav>
@@ -707,7 +707,7 @@ export default function App() {
                   <span className="text-5xl text-[#FF9A3E] block mb-3">📋</span>
                   <h3 className="text-xl font-bold text-[#4A3728] font-display">Aún no has hecho el test</h3>
                   <p className="text-xs text-[#7C6652] mt-2 leading-relaxed">
-                    Responde a las 24 preguntas rápidas del test vocacional para que podamos dibujar tu radiografía personal de intereses y ofrecerte tu Firma Vocacional con el ranking inteligente de ciclos públicos en Córdoba capital para ti.
+                    Responde a las 24 preguntas rápidas del test vocacional para que podamos dibujar tu radiografía personal de intereses y ofrecerte una guía para encontrar tu vocación con el ranking inteligente de ciclos públicos en Córdoba capital para ti.
                   </p>
                   <button 
                     onClick={() => setActiveTab('test')}
@@ -1208,7 +1208,7 @@ export default function App() {
       {/* App Footer */}
       <footer className="bg-white rounded-3xl border-2 border-[#FFE8CC] mt-8 py-5 px-6 text-center text-xs text-[#7C6652] shrink-0 font-sans max-w-5xl w-full mx-auto shadow-sm animate-fade-in" id="app-footer">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p>© 2026 Ecosistema Vocacional de Córdoba Capital. Sinergias Educativas.</p>
+          <p>Creado con cariño para la 'Asociación Ariadna' de Córdoba © Inma Aranda Muñoz 2026. Todos los derechos reservados. </p>
           <p className="flex items-center gap-1 text-[10px] font-mono justify-center text-[#7C6652]/70">
             Diseño pedagógico basado en el Modelo Holístico RIASEC • Córdoba Capital
           </p>
