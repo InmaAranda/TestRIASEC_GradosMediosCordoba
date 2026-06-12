@@ -434,7 +434,7 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-2xl font-extrabold tracking-tight text-[#4A3728] font-display">
-                Orientación Vocacional Tras la ESO
+                ¿Qué elijo tras terminar la ESO?<span className="text-[#6B21A8]">¡Descúbrelo!</span>
               </h1>
               <p className="text-[#7C6652] text-xs md:text-sm mt-0.5 max-w-2xl font-medium">
                 Test interactivo de intereses basado en el modelo RIASEC y buscador de ciclos formativos públicos de Grado Medio y Escuelas de Arte en Córdoba Capital.
