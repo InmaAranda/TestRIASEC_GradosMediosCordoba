@@ -1,0 +1,6 @@
+{
+  "name": "Orientación Vocacional Córdoba",
+  "description": "Test vocacional interactivo RIASEC y buscador de la oferta de ciclos formativos públicos de Grado Medio y Escuelas de Arte en Córdoba Capital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
